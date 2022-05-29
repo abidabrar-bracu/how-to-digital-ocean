@@ -1,4 +1,4 @@
-First, login as root using `root@IP`
+First, login as root using `ssh root@IP`
 
 ```bash
 adduser abid
