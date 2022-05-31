@@ -23,7 +23,7 @@ scp -r path/to/file/cse251_bot_codes abid@IP:~/
 Now log in to the VM using `ssh abid@IP`. We first need to create a `token.json` file for accessing Google Sheet
 
 ```bash
-cs cse251_bot_codes\
+cs cse251_bot_codes/
 python quickstart.py
 ```
 Open the link in your browser, select `@bracu.ac.bd` account, click `Allow`, copy the code, paste it in the terminal, and press `Enter`. If no error shows, congratulations!
