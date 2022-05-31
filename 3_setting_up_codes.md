@@ -12,7 +12,7 @@ On your local machine, make a zip folder named `cse251_bot_codes` with the follo
 
 Update the variables in the `variables.py` and `messages_string.py` as you did in the previous semesters. In the `variables.py`, keep `dashboard_enabled = False`, therefore, you don't need to change anything from `line 73` and onwards
 
-Also, in the `variables.py`, `SPREADSHEET_ID` is the Google Sheet ID of Enrolment Manager sheet, and `SPREADSHEET_ID_2 = SPREADSHEET_ID_3` is the Google Sheet ID for the marks sheet (use the template [here](https://docs.google.com/spreadsheets/d/1fEFu57ZBTd-K0GrNloiO9o5tMMjPYTKjTwi3JPbYEbg/edit?usp=sharing))
+Also, in the `variables.py`, `SPREADSHEET_ID` is the Google Sheet ID of Enrolment Manager sheet, and `SPREADSHEET_ID_2 = SPREADSHEET_ID_3` is the Google Sheet ID for the marks sheet (use the template [here](https://docs.google.com/spreadsheets/d/1fEFu57ZBTd-K0GrNloiO9o5tMMjPYTKjTwi3JPbYEbg/edit?usp=sharing), make sure to `IMPORTRANGE` your own Enrolment Manager ID in each marks, normalized & grades sheet)
 
 Restart the command prompt, DON'T ssh to VM first. We will first copy the files to our VM using `scp`
 ```bash
