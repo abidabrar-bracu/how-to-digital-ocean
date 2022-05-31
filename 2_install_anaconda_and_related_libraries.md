@@ -13,4 +13,9 @@ First, login to your VM using `ssh abid@IP`
  . .bashrc
  which python
  ```
- this should print `/home/abid/anaconda3/bin/python` if anaconda is installed and activated successfully
+ this should print `/home/abid/anaconda3/bin/python` if anaconda is installed and activated successfully.
+ ```
+ python3 -m pip install -U "discord.py[voice]"
+ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+ ```
+The last line might give an error message, ignore for now.
