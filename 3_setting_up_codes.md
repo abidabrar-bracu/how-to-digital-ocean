@@ -1,3 +1,6 @@
+First, download the `credentials.json` file following [this](https://youtu.be/_HLlLyYwu24) tutorial.
+
+
 On your local machine, make a zip folder named `cse251_bot_codes` with the following files:
 - `quickstart.py`
 - `variables.py`
@@ -14,7 +17,7 @@ Also, in the `variables.py`, `SPREADSHEET_ID_1` is the Google Sheet ID of Enrolm
 Restart the command prompt, DON'T ssh to VM first. We will first copy the files to our VM using `scp`
 ```bash
 cd Downloads
-scp -r path/to/file/cse251_bot abid@IP:~/
+scp -r path/to/file/cse251_bot_codes abid@IP:~/
 ```
 
 Now log in to the VM using `ssh abid@IP`. We first need to create a `token.json` file for accessing Google Sheet
@@ -35,3 +38,4 @@ To check if there is any error or to check output:
 ```bash
 tmux attach
 ```
+To exit without shutting down the bot, first press `CNTRL + B`, then `D`.
